@@ -17,7 +17,6 @@ i am doing this project aiming to make the documentation process way faster than
 
 ## 📐 Architecture Flow
 
-```text
 [ Splunk SIEM ]
        │
        │  (HTTP POST Webhook)
@@ -26,7 +25,8 @@ i am doing this project aiming to make the documentation process way faster than
        │
        ├────► 📸 Playwright (Captures URL Screenshot)
        │
-       └────► 🗄️ PostgreSQL (Stores Metadata & Evidence Path)
+       └────► 🗄️ PostgreSQL (Stores Metadata & Evidence Path) 
+
 
 
 🛠️ Tech Stack
@@ -123,4 +123,4 @@ Set the URL to: https://xyz123.ngrok-free.app/splunk-webhook.
 Save the alert.
 
 📝 License
-Distributed under the MIT License. See LICENSE for details.
+Distributed under the Apache License 2.0 License. See LICENSE for details.
