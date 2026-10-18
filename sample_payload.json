@@ -1,0 +1,14 @@
+{
+  "sid": "scheduler__admin__search__RMD58742c385a81e9d0_at_1776537600_45.1",
+  "search_name": "Suspicious External URL Access Detected",
+  "app": "search",
+  "owner": "admin",
+  "results_link": "http://splunk-server:8000/app/search/flashtimeline",
+  "result": {
+    "name": "Suspicious External URL Access Detected",
+    "severity": "High",
+    "url": "http://example.com",
+    "src_ip": "192.168.1.55",
+    "user": "secops_analyst"
+  }
+}
