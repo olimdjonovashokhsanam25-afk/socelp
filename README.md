@@ -27,3 +27,12 @@ i am doing this project aiming to make the documentation process way faster than
        ├────► 📸 Playwright (Captures URL Screenshot)
        │
        └────► 🗄️ PostgreSQL (Stores Metadata & Evidence Path)
+
+
+🛠️ Tech Stack
+Component      Technology
+SIEM / Trigger    Splunk Enterprise
+Backend API       Python 3, Flask
+Automation & Capture    Playwright (Headless Chromium)
+Database    PostgreSQL
+Testing     cURL / Postman
