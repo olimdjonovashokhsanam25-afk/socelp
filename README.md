@@ -36,3 +36,8 @@ Backend API       Python 3, Flask
 Automation & Capture    Playwright (Headless Chromium)
 Database    PostgreSQL
 Testing     cURL / Postman
+
+├── app.py                 # Core Flask REST API & evidence collection logic
+├── schema.sql             # SQL database table & index creation script
+├── sample_payload.json    # Example Splunk payload for local testing
+└── README.md              # Documentation
