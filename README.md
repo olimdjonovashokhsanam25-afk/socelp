@@ -75,7 +75,7 @@ DB_CONFIG = {
 Execute the schema.sql script to create the table and indexes:
 
 Bash
-psql -U your_postgres_user -d your_database_name -f schema.sql
+ --psql -U your_postgres_user -d your_database_name -f schema.sql
 4️⃣ Start the API Server
 Run the Flask application locally:
 
