@@ -48,19 +48,19 @@ cd splunk-alert-pipeline
 2️⃣ Set Up Virtual Environment & Dependencies
 Bash
 # Create virtual environment
-python3 -m venv venv
+    python3 -m venv venv
 
 # Activate virtual environment
 # On Linux/Mac:
-source venv/bin/activate
+    source venv/bin/activate
 # On Windows:
 # venv\Scripts\activate
 
 # Install required Python packages
-pip install flask playwright psycopg2-binary
+    pip install flask playwright psycopg2-binary
 
 # Install Playwright browser dependencies
-playwright install chromium
+    playwright install chromium
 3️⃣ Set Up PostgreSQL Database
 Update the DB_CONFIG dictionary in app.py with your database credentials:
 
